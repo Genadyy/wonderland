@@ -1,8 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Example title" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://www.site.com/example" />
+    <meta property="og:image" content="http://site.com/images/example.jpg" />
     <link
       href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@400;700&display=swap"
       rel="stylesheet"
@@ -22,9 +26,7 @@
                 <div class="header__logo-img">
                   <img src="img/header/images.jpg" alt="logo" />
                 </div>
-                <div class="header__logo-text">
-                  LOGO
-                </div>
+                <div class="header__logo-text">LOGO</div>
               </div>
               <!--header__logo-->
               <nav class="header__menu">
@@ -88,7 +90,7 @@
                 <img
                   class="about-slider__img"
                   src="./img/slider/photo1.jpeg"
-                  alt=""
+                  alt="photo"
                 />
               </div>
               <div class="about-slider__content">
@@ -104,7 +106,7 @@
                 <img
                   class="about-slider__img"
                   src="./img/slider/photo2.jpeg"
-                  alt=""
+                  alt="photo"
                 />
               </div>
               <div class="about-slider__content">
@@ -120,7 +122,7 @@
                 <img
                   class="about-slider__img"
                   src="./img/slider/photo3.jpeg"
-                  alt=""
+                  alt="photo"
                 />
               </div>
               <div class="about-slider__content">
@@ -136,7 +138,7 @@
                 <img
                   class="about-slider__img"
                   src="./img/slider/photo4.jpeg"
-                  alt=""
+                  alt="photo"
                 />
               </div>
               <div class="about-slider__content">
@@ -152,7 +154,7 @@
                 <img
                   class="about-slider__img"
                   src="./img/slider/photo5.jpeg"
-                  alt=""
+                  alt="photo"
                 />
               </div>
               <div class="about-slider__content">
@@ -168,7 +170,7 @@
                 <img
                   class="about-slider__img"
                   src="./img/slider/photo6.jpeg"
-                  alt=""
+                  alt="photo"
                 />
               </div>
               <div class="about-slider__content">
@@ -262,9 +264,7 @@
       </section>
       <section id="product" class="product">
         <div class="container">
-          <h2 class="product__title title">
-            Products
-          </h2>
+          <h2 class="product__title title">Products</h2>
           <div class="product__items">
             <div class="product__item-wrap">
               <a href="#photo1">
@@ -627,9 +627,7 @@
       </section>
       <section class="testimony">
         <div class="container">
-          <h2 class="testimony__title title">
-            They talk about us
-          </h2>
+          <h2 class="testimony__title title">They talk about us</h2>
           <div class="testimony__items">
             <div class="testimony__item">
               <div class="testimony__item-image">
@@ -716,7 +714,7 @@
               <p class="contact__item">our e-mail:<br />giant123@gmail.com</p>
               <p class="contact__item">or look for us at social-media:</p>
               <div class="contact__social">
-                <a href="https://twitter.com/" target="blank">
+                <a href="https://twitter.com/" target="blank" rel="noopener">
                   <div class="contact__social-item">
                     <img
                       src="./img/social/social-icon1.jpg"
@@ -726,7 +724,11 @@
                   </div>
                 </a>
 
-                <a href="https://www.facebook.com/" target="blank">
+                <a
+                  href="https://www.facebook.com/"
+                  target="blank"
+                  rel="noopener"
+                >
                   <div class="contact__social-item">
                     <img
                       src="./img/social/social-icon2.jpg"
@@ -735,7 +737,11 @@
                     />
                   </div>
                 </a>
-                <a href="https://www.linkedin.com/" target="blank">
+                <a
+                  href="https://www.linkedin.com/"
+                  target="blank"
+                  rel="noopener"
+                >
                   <div class="contact__social-item">
                     <img
                       src="./img/social/social-icon3.jpg"
@@ -744,7 +750,11 @@
                     />
                   </div>
                 </a>
-                <a href="https://www.instagram.com/" target="blank">
+                <a
+                  href="https://www.instagram.com/"
+                  target="blank"
+                  rel="noopener"
+                >
                   <div class="contact__social-item">
                     <img
                       src="./img/social/social-icon4.jpg"
@@ -772,9 +782,9 @@
         <div class="container">
           <div class="footer__wrap">
             <div class="footer__links">
-              <a href="#" class="footer__link">About Us</a>
-              <a href="#" class="footer__link">Help</a>
-              <a href="#" class="footer__link">Privacy policy</a>
+              <a href="#" class="footer__link" rel="noopener">About Us</a>
+              <a href="#" class="footer__link" rel="noopener">Help</a>
+              <a href="#" class="footer__link" rel="noopener">Privacy policy</a>
             </div>
             <address class="footer__address">
               010203, Kyiv city, Vladimirskaja str.,23
