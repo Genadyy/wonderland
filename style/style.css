@@ -585,6 +585,17 @@ h1 {
   .slick-dots {
     bottom: 4em;
   }
+  .testimony {
+    padding: 1.5em 0 1.5em 0;
+  }
+  .testimony__items {
+    flex-wrap: wrap;
+    padding: 1.5em;
+  }
+  .testimony__item {
+    width: 45%;
+    margin: 1em 0;
+  }
 }
 
 @media (max-width: 950px) {
