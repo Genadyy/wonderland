@@ -6,7 +6,6 @@ burger.onclick = function () {
   menu.classList.toggle("active");
   body.classList.toggle("lock");
 };
-
 $(".about-slider").slick({
   infinite: true,
   dots: true,
@@ -19,15 +18,11 @@ $(".about-slider").slick({
     '<div class="slick-next"><img src="./img/slider/arrow-right.png"/></div>',
   accessibility: true,
 });
-
-/*function initMap() {
-  // The location of Uluru
+function initMap() {
   var address = { lat: 50.4521327, lng: 30.5161878 };
-  // The map, centered at Uluru
   var map = new google.maps.Map(document.getElementById("map"), {
     zoom: 15,
     center: address,
   });
-  // The marker, positioned at Uluru
   var marker = new google.maps.Marker({ position: address, map: map });
-}*/
+}
