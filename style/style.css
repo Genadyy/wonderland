@@ -492,7 +492,7 @@ h1 {
 .contact__social-img {
   width: 2em;
 }
-.contact__wrapper-map {
+/*.contact__wrapper-map {
   width: 57%;
   overflow: hidden;
 }
@@ -502,7 +502,7 @@ h1 {
 #map {
   width: 100%;
   height: 25em;
-}
+}*/
 .footer {
   width: 100%;
   background-color: #444e44;
