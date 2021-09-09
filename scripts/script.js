@@ -26,3 +26,8 @@ function initMap() {
   });
   var marker = new google.maps.Marker({ position: address, map: map });
 }
+
+const sum = (a, b) => {
+  return a+b;
+}
+console.log(sum(5, 7));
